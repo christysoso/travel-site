@@ -55,6 +55,34 @@ h2 {
   font-size: 4rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 1.5rem;
+}
+
+.footer-container {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info__section {
+  display: inline-block;
+}
+
+.info__descriptor {
+  color: #DB7A4e;
+}
+
+.info__container {
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+.Social {
+  margin: 3.5rem 4rem 0 0;
+  max-height: 3rem;
 }/*# sourceMappingURL=greece.css.map */

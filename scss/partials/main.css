@@ -55,8 +55,36 @@ h2 {
   font-size: 4rem;
 }
 
+h3 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 1.5rem;
+}
+
+.footer-container {
+  background-color: #FEFAF5;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info__section {
+  display: inline-block;
+}
+
+.info__descriptor {
+  color: #DB7A4e;
+}
+
+.info__container {
+  display: inline-block;
+  margin-right: 5rem;
+}
+
+.Social {
+  margin: 3.5rem 4rem 0 0;
+  max-height: 3rem;
 }
 
 .banner {
@@ -84,4 +112,28 @@ p {
 .banner__img {
   max-width: 100%;
   padding: 7rem;
+}
+
+.featured-destinations {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.destinations {
+  display: flex;
+  justify-content: center;
+}
+
+.destination {
+  width: 25%;
+  text-align: center;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.destination__img {
+  max-width: 100%;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=main.css.map */
