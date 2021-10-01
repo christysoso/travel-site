@@ -1,0 +1,33 @@
+@use '../partials/global';
+
+$highlight-color: #FEFAF5;
+$accent-color:#DB7A4e;
+
+.banner {
+    background-color: $highlight-color;
+  }
+  
+  .banner__container {
+    max-width: 120rem;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .banner__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .banner__left,
+  .banner__right {
+    width: 50%;
+  }
+  
+  .banner__img {
+    max-width: 100%;
+    padding: 7rem;
+  }
+
+  
