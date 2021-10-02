@@ -56,7 +56,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 p {
@@ -67,6 +67,7 @@ p {
   background-color: #FEFAF5;
   display: flex;
   justify-content: space-evenly;
+  padding: 3rem 0;
 }
 
 .info__section {
@@ -125,7 +126,6 @@ p {
 }
 
 .destination {
-  width: 25%;
   text-align: center;
   margin: 3rem;
   border-radius: 0.5rem;
@@ -136,4 +136,16 @@ p {
 .destination__img {
   max-width: 100%;
   border-radius: 0.5rem;
+}
+
+.destination__container {
+  display: inline-block;
+}
+
+.destination__name {
+  position: relative;
+  float: right;
+  bottom: 10rem;
+  right: 5rem;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
