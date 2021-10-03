@@ -1,2 +1,72 @@
 @use '../partials/global';
 
+
+$highlight-color: #FEFAF5;
+$accent-color:#DB7A4e;
+.banner{
+    background-size: cover;
+    background-position: center;
+    min-height: 71rem;
+    max-height: 120rem;
+}
+
+/*
+.schedule{
+    max-width: 120rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;    
+}
+
+.schedule__container{
+    text-align:center;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
+}*/
+
+
+  
+  .schedule {
+    display: flex;
+    justify-content: center; 
+  }
+  
+.schedule__container{
+    display:inline-block;
+    text-align: center;
+    margin: 2rem;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .2); 
+    height: 38rem;
+    width: 25rem; 
+    background-color:white;
+    
+}
+
+.schedule__activity{
+    background-color:$highlight-color;
+    margin: 2rem 2rem;
+    padding: 1.5rem;
+    color:black;
+    
+    
+}
+
+.schedule__date {
+    font-size: 2rem;
+    color: black;
+    border-bottom: solid;
+    margin: 2rem;
+
+}
+
+.banner__title{
+    font-size: 7rem;
+    color: white;
+    margin: 0 0 4rem 10rem;
+    padding-top: 7rem;
+}

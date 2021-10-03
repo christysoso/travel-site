@@ -12,8 +12,12 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-header {
-  padding: 1rem;
+  padding: 1.5rem 1rem 1rem 1rem;
   font-size: 2rem;
 }
 
@@ -22,12 +26,13 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .page-header__title {
   margin: 0;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .primary-nav {
@@ -35,12 +40,13 @@ body {
 }
 
 .primary-nav__link {
-  padding: 1rem;
+  margin-right: 2rem;
   text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
 }
 
 .btn {
-  /* align-self: flex-start; */
   display: inline-block;
   background-color: #DB7A4e;
   color: white;
@@ -76,14 +82,89 @@ p {
 
 .info__descriptor {
   color: #DB7A4e;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 .info__container {
   display: inline-block;
+}
+
+.info__time {
   margin-right: 5rem;
 }
 
 .Social {
-  margin: 3.5rem 4rem 0 0;
-  max-height: 3rem;
+  margin: 3.5rem 3rem 0 0;
+  max-height: 2.5rem;
+}
+
+.underline {
+  border-bottom: solid #DB7A4e;
+  padding-bottom: 1rem;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  min-height: 71rem;
+  max-height: 120rem;
+}
+
+/*
+.schedule{
+    max-width: 120rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;    
+}
+
+.schedule__container{
+    text-align:center;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}*/
+.schedule {
+  display: flex;
+  justify-content: center;
+}
+
+.schedule__container {
+  display: inline-block;
+  text-align: center;
+  margin: 2rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+  height: 38rem;
+  width: 25rem;
+  background-color: white;
+}
+
+.schedule__activity {
+  background-color: #FEFAF5;
+  margin: 2rem 2rem;
+  padding: 1.5rem;
+  color: black;
+}
+
+.schedule__date {
+  font-size: 2rem;
+  color: black;
+  border-bottom: solid;
+  margin: 2rem;
+}
+
+.banner__title {
+  font-size: 7rem;
+  color: white;
+  margin: 0 0 4rem 10rem;
+  padding-top: 7rem;
+}
+
+.banner {
+  background-image: url("../../Assets/Images/iceland.jpg");
 }/*# sourceMappingURL=iceland.css.map */

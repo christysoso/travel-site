@@ -17,10 +17,13 @@ html{
 body{
     margin:0;
 }
+a{
+    text-decoration:none;
+}
 
 
 .page-header {
-    padding: 1rem;
+    padding: 1.5rem 1rem 1rem 1rem;
     font-size: 2rem;
   }
   
@@ -29,12 +32,13 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
   }
   
   .page-header__title {
     margin: 0;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: 2rem;
   }
   
   .primary-nav {
@@ -42,12 +46,13 @@ body{
   }
   
   .primary-nav__link {
-    padding: 1rem;
+    margin-right:2rem;
     text-decoration: none;
+    color:black;
+    font-size:1.5rem;
   }
 
   .btn {
-    /* align-self: flex-start; */
     display: inline-block;
     background-color: $accent-color;
     color: white;
@@ -84,16 +89,26 @@ body{
 
 .info__descriptor{
     color:$accent-color;
+    font-size: 1rem;
+    text-transform: uppercase;
 }
 
 .info__container{
 display:inline-block;
-margin-right: 5rem;
+}
+
+.info__time{
+    margin-right: 5rem;
 }
 
 .Social{
-    margin:3.5rem 4rem 0 0;
-    max-height: 3rem;
+    margin: 3.5rem 3rem 0 0;
+    max-height: 2.5rem;
     
 
+}
+
+.underline {
+    border-bottom: solid $accent-color;
+    padding-bottom: 1rem;
 }

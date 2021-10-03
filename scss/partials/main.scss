@@ -3,6 +3,8 @@
 $highlight-color: #FEFAF5;
 $accent-color:#DB7A4e;
 
+
+
 .banner {
     background-color: $highlight-color;
   }
@@ -39,22 +41,24 @@ $accent-color:#DB7A4e;
     display: flex;
     justify-content: center;
    
-  
-
   }
   
   .destination {
     text-align: center;
-    margin: 3rem;
+    margin: 2.5rem;
     border-radius: .5rem;
     border: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .2);  
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .2); 
+    height: 38rem;
+    width: 25rem;  
 
   }
   
   .destination__img {
     max-width: 100%;
     border-radius: .5rem;
+    height: 38rem;
+    width: 25rem; 
     
   }
 
@@ -72,4 +76,5 @@ $accent-color:#DB7A4e;
     color: white;
 }
     
+
 
