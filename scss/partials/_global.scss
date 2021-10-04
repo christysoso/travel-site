@@ -19,7 +19,6 @@ a {
 }
 
 .page-header {
-  padding: 1.5rem 1rem 1rem 1rem;
   font-size: 2rem;
 }
 
@@ -27,7 +26,7 @@ a {
   margin: 0 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .page-header__title {
@@ -103,4 +102,12 @@ p {
 .underline {
   border-bottom: solid $accent-color;
   padding-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.primary-nav__links {
+  display: flex;
 }

@@ -17,7 +17,6 @@ a {
 }
 
 .page-header {
-  padding: 1.5rem 1rem 1rem 1rem;
   font-size: 2rem;
 }
 
@@ -25,7 +24,7 @@ a {
   margin: 0 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .page-header__title {
@@ -103,59 +102,76 @@ p {
   padding-bottom: 1rem;
 }
 
-.banner {
-  background-size: cover;
-  background-position: center;
-  min-height: 71rem;
-  max-height: 120rem;
+ul {
+  list-style: none;
 }
 
-.schedule {
+.primary-nav__links {
+  display: flex;
+}
+
+.banner {
+  background-color: #fefaf5;
+}
+
+.banner__container {
+  max-width: 120rem;
+  display: flex;
+  margin: 0 auto;
+}
+
+.banner__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.banner__left,
+.banner__right {
+  width: 50%;
+}
+
+.banner__img {
+  max-width: 100%;
+  padding: 7rem;
+}
+
+.featured-destinations {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.destinations {
   display: flex;
   justify-content: center;
 }
 
-.schedule__container {
-  display: inline-block;
+.destination {
   text-align: center;
-  margin: 2rem;
+  margin: 2.5rem;
   border-radius: 0.5rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
   height: 38rem;
   width: 25rem;
-  background-color: white;
 }
 
-.schedule__activity {
-  background-color: #fefaf5;
-  margin: 1rem 2rem;
-  padding: 1.5rem;
-  color: black;
-  font-size: 1.5rem;
+.destination__img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  height: 38rem;
+  width: 25rem;
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 0;
+.destination__container {
+  display: inline-block;
 }
 
-.schedule__date {
-  font-size: 2rem;
-  color: black;
-  border-bottom: solid;
-  margin: 2rem;
-}
-
-.banner__title {
-  font-size: 7rem;
+.destination__name {
+  position: relative;
+  float: right;
+  bottom: 10rem;
+  right: 5rem;
   color: white;
-  margin: 0 0 4rem 10rem;
-  padding-top: 7rem;
-}
-
-.banner {
-  background-image: url("../../Assets/Images/iceland.jpg");
-}/*# sourceMappingURL=iceland.css.map */
+}/*# sourceMappingURL=main.css.map */

@@ -34,10 +34,9 @@ $accent-color: #db7a4e;
   font-size: 1.5rem;
 }
 
-ul {
+.schedule__activities {
   display: flex;
   flex-direction: column;
-  list-style: none;
   padding: 0;
 }
 

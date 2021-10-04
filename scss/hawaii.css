@@ -17,7 +17,6 @@ a {
 }
 
 .page-header {
-  padding: 1.5rem 1rem 1rem 1rem;
   font-size: 2rem;
 }
 
@@ -25,7 +24,7 @@ a {
   margin: 0 2rem;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .page-header__title {
@@ -103,6 +102,14 @@ p {
   padding-bottom: 1rem;
 }
 
+ul {
+  list-style: none;
+}
+
+.primary-nav__links {
+  display: flex;
+}
+
 .banner {
   background-size: cover;
   background-position: center;
@@ -135,10 +142,9 @@ p {
   font-size: 1.5rem;
 }
 
-ul {
+.schedule__activities {
   display: flex;
   flex-direction: column;
-  list-style: none;
   padding: 0;
 }
 
@@ -157,5 +163,5 @@ ul {
 }
 
 .banner {
-  background-image: url("../../Assets/Images/greece.jpg");
-}/*# sourceMappingURL=greece.css.map */
+  background-image: url("../../Assets/Images/hawaii.jpg");
+}/*# sourceMappingURL=hawaii.css.map */
