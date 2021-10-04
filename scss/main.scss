@@ -1,4 +1,4 @@
-@use "../partials/global";
+@use "../scss/partials/global";
 
 $highlight-color: #fefaf5;
 $accent-color: #db7a4e;
@@ -8,9 +8,8 @@ $accent-color: #db7a4e;
 }
 
 .banner__container {
-  max-width: 120rem;
   display: flex;
-  margin: 0 auto;
+  justify-content:space-evenly;
 }
 
 .banner__left {
@@ -22,7 +21,7 @@ $accent-color: #db7a4e;
 
 .banner__left,
 .banner__right {
-  width: 50%;
+  width: 40%;
 }
 
 .banner__img {
@@ -30,9 +29,8 @@ $accent-color: #db7a4e;
   padding: 7rem;
 }
 
-.featured-destinations {
-  max-width: 120rem;
-  margin: 0 auto;
+.featured-destinations__title {
+  margin-left: 3rem;
 }
 
 .destinations {

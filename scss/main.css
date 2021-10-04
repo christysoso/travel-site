@@ -115,9 +115,8 @@ ul {
 }
 
 .banner__container {
-  max-width: 120rem;
   display: flex;
-  margin: 0 auto;
+  justify-content: space-evenly;
 }
 
 .banner__left {
@@ -129,7 +128,7 @@ ul {
 
 .banner__left,
 .banner__right {
-  width: 50%;
+  width: 40%;
 }
 
 .banner__img {
@@ -137,9 +136,8 @@ ul {
   padding: 7rem;
 }
 
-.featured-destinations {
-  max-width: 120rem;
-  margin: 0 auto;
+.featured-destinations__title {
+  margin-left: 3rem;
 }
 
 .destinations {
