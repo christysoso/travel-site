@@ -22,8 +22,7 @@ a {
 }
 
 .page-header__container {
-  max-width: 120rem;
-  margin: 0 auto;
+  margin: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -48,7 +47,7 @@ a {
 
 .btn {
   display: inline-block;
-  background-color: #DB7A4e;
+  background-color: #db7a4e;
   color: white;
   padding: 1rem 4rem;
   border-radius: 50rem;
@@ -70,7 +69,7 @@ p {
 }
 
 .footer-container {
-  background-color: #FEFAF5;
+  background-color: #fefaf5;
   display: flex;
   justify-content: space-evenly;
   padding: 3rem 0;
@@ -81,7 +80,7 @@ p {
 }
 
 .info__descriptor {
-  color: #DB7A4e;
+  color: #db7a4e;
   font-size: 1rem;
   text-transform: uppercase;
 }
@@ -100,12 +99,12 @@ p {
 }
 
 .underline {
-  border-bottom: solid #DB7A4e;
+  border-bottom: solid #db7a4e;
   padding-bottom: 1rem;
 }
 
 .banner {
-  background-color: #FEFAF5;
+  background-color: #fefaf5;
 }
 
 .banner__container {

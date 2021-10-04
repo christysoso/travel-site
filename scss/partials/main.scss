@@ -1,80 +1,70 @@
-@use '../partials/global';
+@use "../partials/global";
 
-$highlight-color: #FEFAF5;
-$accent-color:#DB7A4e;
-
-
+$highlight-color: #fefaf5;
+$accent-color: #db7a4e;
 
 .banner {
-    background-color: $highlight-color;
-  }
-  
-  .banner__container {
-    max-width: 120rem;
-    display: flex;
-    margin: 0 auto;
-  }
-  
-  .banner__left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
-  .banner__left,
-  .banner__right {
-    width: 50%;
-  }
-  
-  .banner__img {
-    max-width: 100%;
-    padding: 7rem;
-  }
-
-  .featured-destinations {
-    max-width: 120rem;
-    margin: 0 auto;
-  }
-  
-  .destinations {
-    display: flex;
-    justify-content: center;
-   
-  }
-  
-  .destination {
-    text-align: center;
-    margin: 2.5rem;
-    border-radius: .5rem;
-    border: .1rem solid rgba(0, 0, 0, .2);
-    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, .2); 
-    height: 38rem;
-    width: 25rem;  
-
-  }
-  
-  .destination__img {
-    max-width: 100%;
-    border-radius: .5rem;
-    height: 38rem;
-    width: 25rem; 
-    
-  }
-
-
-
-.destination__container{
-    display:inline-block;
+  background-color: $highlight-color;
 }
 
-.destination__name{
-    position:relative;
-    float: right;
-    bottom: 10rem;
-    right: 5rem;
-    color: white;
+.banner__container {
+  max-width: 120rem;
+  display: flex;
+  margin: 0 auto;
 }
-    
 
+.banner__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 
+.banner__left,
+.banner__right {
+  width: 50%;
+}
+
+.banner__img {
+  max-width: 100%;
+  padding: 7rem;
+}
+
+.featured-destinations {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.destinations {
+  display: flex;
+  justify-content: center;
+}
+
+.destination {
+  text-align: center;
+  margin: 2.5rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+  height: 38rem;
+  width: 25rem;
+}
+
+.destination__img {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  height: 38rem;
+  width: 25rem;
+}
+
+.destination__container {
+  display: inline-block;
+}
+
+.destination__name {
+  position: relative;
+  float: right;
+  bottom: 10rem;
+  right: 5rem;
+  color: white;
+}
